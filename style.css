@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 5, 40);
+}
+.container{
+    width: 40%;
+    height: 550px;
+    background: linear-gradient(135deg, rgb(135, 235, 183), rgb(157, 0, 255));
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+
+.container input{
+    width: 60%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: black;
+    outline: none;
+}
+
+#search{
+    width: 48px;
+    height: 43px;
+    background-color: white;
+    padding: 7px;
+    margin-top: 5px;
+    position: absolute;
+    top: 20px;
+    left: 67%;
+    border-radius: 50%;
+}
+
+.clouds{
+    width: 40px;
+    height: 40px;
+    margin: 26px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+.cloud img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 45px 193px;
+}
+
+h2{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+}
+
+h1{
+    font-size: 47px;
+    position: absolute;
+    top: 58%;
+    left: 30%;
+}
+
+.hum-wind{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.humi-windspeed{
+    width: 75%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 35px;
+    margin: 10px;
+}
+
